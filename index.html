@@ -9,24 +9,79 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
 </head>
 <body>
     <header class="container-header">
         <section class="main-top">
             <div>
-                <img src="img/logo_icon2.jpg" alt="logo">
+                <img id="logo-icon" src="img/logo_icon2.jpg" alt="logo">
             </div>
             <h3 class="slogan">Arquitetura & Urbanismo</h3>
-            <nav class="nav-header">
-                <a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-                <a href="#">Endereço</a>
-            </nav>
+            
+            <input type="checkbox" id="menu-toggle" hidden>
+            <label for="menu-toggle" class="hamburger">
+                <span class="line l1"></span>
+                <span class="line l2"></span>
+                <span class="line l3"></span>
+                <span class="line l4"></span>
+            </label>
+            <aside class="aside-menu">
+                <div class="container-menu">    
+                    <div>
+                        <nav>
+                            <a href="#">Início</a>
+                            <a href="#">Sobre</a>
+                            <a href="#">Projetos</a>
+                            <a href="#">Contato</a>
+                        </nav>
+                    </div>
+                    <div class="sociais">
+                        <li>
+                            <a href="https://www.instagram.com/nascoarquitetura/"><img class="icon-instagram" src="img/instagram.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/556292112256" target="_blank" class="whatsapp-button"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                    </div>
+                </div>        
+            </aside>
+            <div class="mascara">
+        
+            </div>
         </section>
+        
     </header>
+    
     <div class="main-container">
-        Conteúdo principal
+        <div class="conteudo">
+            Parte1
+            <div>
+                Parte 1.1
+            </div>
+            <div>
+                Parte 1.2
+            </div>
+        </div>
+        <div>
+            Parte 2
+            <div>
+                Parte 2.1
+            </div>
+            <div>
+                Parte 2.2
+            </div>
+        </div>
+        <div>
+            Parte 3
+            <div>
+                Parte 3.1
+            </div>
+            <div>
+                Parte 3.2
+            </div>
+        </div>
     </div>
 
     <footer class="footer-container">
