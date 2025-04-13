@@ -416,5 +416,139 @@ header {
 }
 
 
+/* Responsividade */
 
+@media (max-width: 1024px) {
+    .main-top {
+        padding: 0 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 
+    .main-top h3 {
+        position: static;
+        margin-left: 0;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .recorte1,
+    .recorte2,
+    .recorte3 {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .recorte1_1,
+    .recorte2_2,
+    .recorte3_1,
+    .recorte1_2,
+    .recorte2_1,
+    .recorte3_2 {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .recorte1_1 img,
+    .recorte2_2 img,
+    .recorte3_1 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .recorte1_2,
+    .recorte2_1,
+    .recorte3_2 {
+        padding: 20px 10px;
+    }
+
+    .recorte1_2 h1,
+    .recorte2_1 h1,
+    .recorte3_2 h1 {
+        font-size: 30px;
+        max-width: 100%;
+    }
+
+    .recorte1_2 p,
+    .recorte2_1 p,
+    .recorte3_2 p {
+        font-size: 16px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .aside-menu {
+        width: 100vw;
+    }
+
+    .container-menu {
+        gap: 100px;
+    }
+
+    .aside-menu nav a {
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    .footer-container {
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .footer-container > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .autority {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hamburger {
+        width: 40px;
+        height: 40px;
+    }
+
+    .line {
+        width: 25px;
+        left: 7px;
+    }
+
+    .main-top h3 {
+        font-size: 12px;
+    }
+
+    .recorte1_2 h1,
+    .recorte2_1 h1,
+    .recorte3_2 h1 {
+        font-size: 24px;
+    }
+
+    .recorte1_2 p,
+    .recorte2_1 p,
+    .recorte3_2 p {
+        font-size: 14px;
+    }
+
+    .icon-instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .whatsapp-button {
+        font-size: 32px;
+    }
+}
